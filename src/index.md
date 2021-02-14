@@ -35,14 +35,14 @@ app.use(VueGoogleMaps, {
 ### Use it anywhere in your components
 ```vue
 <template>
-  <GmapMap
+  <GMapMap
       :center="center"
       :zoom="7"
       map-type-id="terrain"
       style="width: 500px; height: 300px"
   >
-    <GmapCluster>
-      <GmapMarker
+    <GMapCluster>
+      <GMapMarker
           :key="index"
           v-for="(m, index) in markers"
           :position="m.position"
@@ -50,8 +50,8 @@ app.use(VueGoogleMaps, {
           :draggable="true"
           @click="center=m.position"
       />
-    </GmapCluster>
-  </GmapMap>
+    </GMapCluster>
+  </GMapMap>
 </template>
 <script>
 export default {
