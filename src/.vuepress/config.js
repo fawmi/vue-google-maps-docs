@@ -15,6 +15,10 @@ module.exports = {
         link: '/docs/',
       },
       {
+        text: 'Github',
+        link: 'https://github.com/fawmi/vue-google-maps'
+      }
+      {
         text: 'NPM',
         link: 'https://www.npmjs.com/package/@fawmi/vue-google-maps'
       }
