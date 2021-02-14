@@ -8,11 +8,6 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#000' }],
   ],
   themeConfig: {
-    repo: 'fawmi/vue-google-maps',
-    editLinks: false,
-    docsDir: 'docs',
-    editLinkText: 'Edit on github',
-    lastUpdated: false,
     logo: '/assets/logo.jpg',
     nav: [
       {
