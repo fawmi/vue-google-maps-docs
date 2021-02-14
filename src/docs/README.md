@@ -24,7 +24,7 @@ You need an API Key. Learn how to [get an Api key ](https://developers.google.co
 Initialise the plugin in your `main.js`:
 ```js
 import { createApp } from 'vue'
-import * as VueGoogleMaps from '@fawmi/vue-google-maps'
+import VueGoogleMaps from '@fawmi/vue-google-maps'
 
 const app = createApp(App);
 app.use(VueGoogleMaps, {

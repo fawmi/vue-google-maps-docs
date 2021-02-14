@@ -7,7 +7,7 @@
     "name": "Fawad Mirzad",
     "email": "hi@fawmi.com"
   },
-  "repository": "https://github.com/fawmi/vue-google-maps.git",
+  "repository": "https://github.com/fawmi/vue-google-maps-docs.git",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
