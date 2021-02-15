@@ -4,7 +4,7 @@
 
 The following components are currently supported:
 
-`Map`, `Marker`, `Cluster`, `InfoWindow`, `Polygon`, `Rectangle`
+`Map`, `Marker`, `Cluster`, `InfoWindow`, `Circle`, `Polygon`, `Rectangle`
 
 
 Checkout getting started to read, how to install and use vue-google-maps
