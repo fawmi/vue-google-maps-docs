@@ -6,7 +6,7 @@
 You can add rectangles to your map using `GMapRectangle` component
 
 
-```
+```vue
 <template>
   <GMapMap
       :center="center"
@@ -41,7 +41,7 @@ export default {
 
 Like almost all components, you can pass all available Google maps rectangle options as prop. 
 
-```
+```vue
 <template>
   <GMapMap
       :center="center"
