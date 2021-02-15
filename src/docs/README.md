@@ -19,7 +19,7 @@ npm install -S @fawmi/vue-google-maps
 ## Basic usage
 You need an API Key. Learn how to [get an Api key ](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
-## Configure Vue to use the Components
+### Configure Vue to use the Components
 
 Initialise the plugin in your `main.js`:
 ```js
@@ -34,7 +34,7 @@ app.use(VueGoogleMaps, {
 }).mount('#app')
 ```
 
-## Use it anywhere in your components
+### Use it anywhere in your components
 
 ```vue
 <template>
