@@ -39,6 +39,7 @@ module.exports = {
           '/components/marker',
           '/components/info-window',
           '/components/cluster',
+          '/components/circle',
           '/components/polygon',
           '/components/rectangle',
         ]
