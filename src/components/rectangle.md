@@ -45,7 +45,6 @@ Like almost all components, you can pass all available Google maps rectangle opt
 <template>
   <GMapMap
       :center="center"
-      :options="options"
       :zoom="4"
       style="width: 100vw; height: 100vh"
   >
