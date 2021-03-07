@@ -50,6 +50,24 @@ You can enable or disable map events by passing props.
 </template>
 ```
 
+## Register events
+You can register events like click, the same as you do in your vue components
+
+```vue
+<template>
+  <GMapMap
+    ref="myMarker"
+  >
+    <GMapMarker
+      :key="index"
+      v-for="(m, index) in markers"
+      :position="m.position"
+      @click="openInfoWindow(marker.id)"
+      :clickable="true"
+    />
+  </GMapMap>
+</template>
+```
 
 ## Add custom icon
 To use custom icon, pass `:icon` prop
