@@ -49,3 +49,23 @@ You can enable or disable map events by passing props.
   </GMapMap>
 </template>
 ```
+
+
+## Add custom icon
+To use custom icon, pass `:icon` prop
+```vue
+<template>
+  <GMapMap
+    ref="myMarker"
+  >
+    <GMapMarker
+      :key="index"
+      v-for="(m, index) in markers"
+      :position="m.position"
+      :icon="'https://developers.google.com/maps/documentation/javascript/examples/full/images/info-i_maps.png'"
+      :clickable="true"
+      :draggable="true"
+    />
+  </GMapMap>
+</template>
+```
