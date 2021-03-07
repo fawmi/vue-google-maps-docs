@@ -70,7 +70,7 @@ You can register events like click, the same as you do in your vue components
 ```
 
 ## Add custom icon
-To use custom icon, pass `:icon` prop
+To use custom icon, pass `:icon` prop. You can pass a local resource or an image from internet.
 ```vue{9}
 <template>
   <GMapMap
