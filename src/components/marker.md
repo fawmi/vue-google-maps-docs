@@ -34,7 +34,7 @@ export default {
 ## Enable/Disable events
 You can enable or disable map events by passing props.
 
-```vue
+```vue{9,10}
 <template>
   <GMapMap
     ref="myMarker"
@@ -53,7 +53,7 @@ You can enable or disable map events by passing props.
 ## Register events
 You can register events like click, the same as you do in your vue components
 
-```vue
+```vue{9}
 <template>
   <GMapMap
     ref="myMarker"
@@ -71,7 +71,7 @@ You can register events like click, the same as you do in your vue components
 
 ## Add custom icon
 To use custom icon, pass `:icon` prop
-```vue
+```vue{9}
 <template>
   <GMapMap
     ref="myMarker"
