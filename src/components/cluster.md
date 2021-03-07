@@ -44,3 +44,27 @@ export default {
 </script>
 ```
 
+## Props
+The following props can be passed to control behavior of clusters.
+
+### minimumClusterSize
+
+Defines the minimum distance of markers to cluster them
+
+``` js
+:minimumClusterSize="2" 
+```
+
+### styles
+With styles prop, you can control style and icon of clusters.
+
+``` js
+:styles="clusterIcon"
+```
+
+### zoomOnClick
+Defines whether clusters should zoom in, when clicked.
+
+``` js
+:zoomOnClick="true"
+```
