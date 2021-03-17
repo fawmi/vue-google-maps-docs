@@ -65,8 +65,6 @@ You can easily access Map instance by accessing map ref in your component.
 ## Add custom button
 You can use the map instance to add custom buttons to your map.
 
-### Wait for google to load: 
-
 ```vue
 <template>
   <GMapMap
