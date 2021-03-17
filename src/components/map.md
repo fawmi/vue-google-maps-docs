@@ -34,7 +34,7 @@ You can disable all ui components at once
 ```
 You can also disable specific UI components
 
-```vue{4,11}
+```vue{4-11}
   <GMapMap
     :center="{lat: 51.093048, lng: 6.842120}"
     :zoom="7"
