@@ -6,7 +6,9 @@ actionText: Read Docs →
 actionLink: /docs/
 ---
 
-<a href="https://stackblitz.com/edit/vue-google-maps-marker">View example</a>
+<div style="display: flex; align-content: center;justify-content: center;">
+    <a target="_blank" href="https://stackblitz.com/edit/vue-google-maps-marker">View example</a>
+</div>
 
 ## Installation
 You can install it using npm
