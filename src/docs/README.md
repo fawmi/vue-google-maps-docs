@@ -7,7 +7,7 @@ The following components are currently supported:
 
 ## Install
 
-to install it via NPM
+To install it via NPM
 ```bash
 npm install -S @fawmi/vue-google-maps
 ```
