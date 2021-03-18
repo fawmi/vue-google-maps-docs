@@ -6,10 +6,7 @@ The following components are currently supported:
 
 `Map`, `Marker`, `Cluster`, `InfoWindow`, `Circle`, `Polygon`, `Rectangle`
 
-
-Checkout getting started to read, how to install and use vue-google-maps
-
-# Install and configure
+## Install
 
 to install it via NPM
 ```bash
@@ -18,8 +15,6 @@ npm install -S @fawmi/vue-google-maps
 
 ## Basic usage
 You need an API Key. Learn how to [get an Api key ](https://developers.google.com/maps/documentation/javascript/get-api-key).
-
-### Configure Vue to use the Components
 
 Initialise the plugin in your `main.js`:
 ```js
