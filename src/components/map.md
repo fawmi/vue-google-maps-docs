@@ -10,7 +10,7 @@ This is the base Map component. If no props are provided, it shows an empty map 
         :zoom="7"
     />
 ```
-Example on [https://stackblitz.com/edit/vue-google-maps-basic-example](stackblitz)
+Example on [stackblitz](https://stackblitz.com/edit/vue-google-maps-basic-example)
 
 ## Provide your own style
 You can provide custom map styling as prop.
