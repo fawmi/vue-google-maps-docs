@@ -28,7 +28,7 @@ app.use(VueGoogleMaps, {
 }).mount('#app')
 ```
 
-### Use it anywhere in your components
+Use it anywhere in your components
 
 ```vue
 <template>
