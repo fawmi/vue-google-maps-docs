@@ -14,7 +14,7 @@ actionLink: /docs/
                 border-radius: 4px;
                 box-sizing: border-box;
                 border: 1px solid #000;"
-href="https://stackblitz.com/edit/vue-google-maps-marker">View example</a>
+href="https://stackblitz.com/edit/vue-google-maps-marker?file=src%2Fcomponents%2FComponentWithMap.vue">View example</a>
 </div>
 
 ## Installation
