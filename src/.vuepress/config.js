@@ -42,6 +42,7 @@ module.exports = {
           '/components/circle',
           '/components/polygon',
           '/components/rectangle',
+          '/components/autocomplete',
         ]
       },
       {
