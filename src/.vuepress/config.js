@@ -41,6 +41,7 @@ module.exports = {
           '/components/cluster',
           '/components/circle',
           '/components/polygon',
+          '/components/polyline',
           '/components/rectangle',
         ]
       },
