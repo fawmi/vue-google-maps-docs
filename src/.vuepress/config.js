@@ -43,6 +43,7 @@ module.exports = {
           '/components/polygon',
           '/components/polyline',
           '/components/rectangle',
+          '/components/autocomplete',
         ]
       },
       {

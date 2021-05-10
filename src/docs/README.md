@@ -3,7 +3,7 @@
 
 The following components are currently supported:
 
-`Map`, `Marker`, `Cluster`, `InfoWindow`, `Circle`, `Polygon`, `Polyline`, `Rectangle`
+`Map`, `Marker`, `Cluster`, `InfoWindow`, `Circle`, `Polygon`, `Polyline`, `Rectangle`, `Autocomplete`
 
 ## Install
 
