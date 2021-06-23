@@ -40,7 +40,7 @@ You can pass `opened` prop to open and close InfoWindows.
 You can open open and close info windows after marker click, by modifying the `:opened` prop and maintaining a state variable containing ID of the opened marker.
 
 
-Check out [this interactive example on stackblitz](https://stackblitz.com/edit/vue-google-maps-marker-w4hxvd-j6txtq-pqxntt?file=src%2Fcomponents%2FComponentWithMap.vue).
+Check out [this interactive example on stackblitz](https://stackblitz.com/edit/vue-google-maps-marker-w4hxvd?file=src/components/ComponentWithMap.vue).
 
 Example:
 ```vue
