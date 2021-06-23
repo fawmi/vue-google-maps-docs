@@ -35,6 +35,80 @@ You can pass `opened` prop to open and close InfoWindows.
 </GMapMap>
 ```
 
+
+### Open/close info window on marker click
+You can open open and close info windows after marker click, by modifying the `:opened` prop and maintaining a state variable containing ID of the opened marker.
+
+Example:
+
+```vue
+<template>
+  <GMapMap :center="center" :zoom="10" map-type-id="terrain" style="width: 100vw; height: 20rem">
+     <GMapMarker :key="index" v-for="(m, index) in markers" :position="m.position" :clickable="true" :draggable="true"
+        @click="openMarker(m.id)" >
+          <GMapInfoWindow
+        :opened="openedMarkerID === m.id"
+      >
+        <div>I am in info window {{ m.id }} </div>
+      </GMapInfoWindow>
+        </GMapMarker>
+  </GMapMap>
+</template>
+
+<script>
+  export default {
+  data() {
+    return {
+      openedMarkerID: null,
+      center: { lat: 51.093048, lng: 6.84212 },
+      markers: [
+        {
+          id: 1,
+          position: {
+            lat: 51.093048,
+            lng: 6.84212
+          }
+        },
+        {
+           id: 2,
+          position: {
+            lat: 51.198429,
+            lng: 6.69529
+          }
+        },
+        {
+           id: 3,
+          position: {
+            lat: 51.165218,
+            lng: 7.067116
+          }
+        },
+        {
+           id: 4,
+          position: {
+            lat: 51.09256,
+            lng: 6.84074
+          }
+        }
+      ]
+    };
+  },
+  methods: {
+    openMarker(id) {
+       this.openedMarkerID = id
+    }
+  }
+};
+</script>
+
+<style>
+  body {
+    margin: 0;
+  }
+</style>
+```
+
+
 ## Options
 You can pass any Google map InfoWindow component using `options` prop
 
