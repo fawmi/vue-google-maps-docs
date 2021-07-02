@@ -87,3 +87,27 @@ To use custom icon, pass `:icon` prop. You can pass a local resource or an image
   </GMapMap>
 </template>
 ```
+
+
+You can also pass an object to the icon `prop` to define custom size and label origin: 
+
+```vue{9,13}
+<template>
+  <GMapMap
+    ref="myMarker"
+  >
+    <GMapMarker
+      :key="index"
+      v-for="(m, index) in markers"
+      :position="m.position"
+      :icon= '{
+          url: "https://image.flaticon.com/teams/slug/google.jpg",
+          scaledSize: {width: 77, height: 77},
+          labelOrigin: {x: 16, y: -10}
+      }'
+      :clickable="true"
+      :draggable="true"
+    />
+  </GMapMap>
+</template>
+```
