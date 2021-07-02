@@ -91,7 +91,7 @@ To use custom icon, pass `:icon` prop. You can pass a local resource or an image
 
 You can also pass an object to the icon `prop` to define custom size and label origin: 
 
-```vue{9,13}
+```vue{9-13}
 <template>
   <GMapMap
     ref="myMarker"
