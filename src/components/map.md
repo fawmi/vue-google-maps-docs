@@ -13,16 +13,39 @@ This is the base Map component. If no props are provided, it shows an empty map 
 Example on [stackblitz](https://stackblitz.com/edit/vue-google-maps-basic-example)
 
 ## Provide your own style
-You can provide custom map styling as prop.
+You can provide custom map styling by providing `style` property to the `options` prop.
 
 You can generate custom map styles at  [https://mapstyle.withgoogle.com/](https://mapstyle.withgoogle.com/)
 ```vue{4}
-    <GMapMap
-        :center="{lat: 51.093048, lng: 6.842120}"
-        :zoom="7"
-        :style="mapStyles"
-    />
+<script>
+    <template>
+      <GMapMap :center="center"
+      :options="options"
+       :zoom="10" map-type-id="terrain" style="width: 100vw; height: 20rem">
+        <GMapCluster :zoomOnClick="true">
+          <GMapMarker :key="index" v-for="(m, index) in markers" :position="m.position" :clickable="true" :draggable="true"
+            @click="center = m.position" />
+        </GMapCluster>
+      </GMapMap>
+    </template>
+
+<script>
+  export default {
+  data() {
+    return {
+      center: { lat: 51.093048, lng: 6.84212 },
+      options: {
+        styles: [
+               // here comes the styles your
+        ],
+      },
+    };
+  }
+};
+</script>
 ```
+
+Check out this example on (Stackblitz)[https://stackblitz.com/edit/vue-google-maps-marker-ssnfbn?file=src/components/ComponentWithMap.vue]
 
 ## Disable ui elements
 You can disable all ui components at once
