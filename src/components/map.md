@@ -45,7 +45,8 @@ You can generate custom map styles at  [https://mapstyle.withgoogle.com/](https:
 </script>
 ```
 
-Check out this example on (Stackblitz)[https://stackblitz.com/edit/vue-google-maps-marker-ssnfbn?file=src/components/ComponentWithMap.vue]
+Example on [stackblitz](https://stackblitz.com/edit/vue-google-maps-marker-ssnfbn?file=src/components/ComponentWithMap.vue)
+
 
 ## Disable ui elements
 You can disable all ui components at once
